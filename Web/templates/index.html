@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <!-- no title roda o nome na pagina do navegador -->
+        <title>{{pagina_nome}}</title>
+    </head>
+        <body>
+            <!-- Neste caso o nome roda no topo da página -->
+            <h1>{{pagina_nome}}</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for a in lista %}
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </body>
+    
+</html>
