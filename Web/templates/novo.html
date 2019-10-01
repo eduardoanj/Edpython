@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1>Novo Aluno</h1>
+        <!-- o metodo post salva as informações -->
+        <form action="/aluno_salvar" method="POST"> 
+            <label for="">Nome :</label> 
+            <input type="text" name= "nome"> <br/>
+            <label for="">Sobrenome :</label>
+            <!-- input adiciona uma caixa de texto no site e o label para indicar o conteúdo da caixa de texto -->
+            <input type="text" name= "sobrenome"> <br/>
+            <label for="">Telefone :</label>
+            <input type="text" name= "telefone"> <br/>
+            <hr/>
+            <!-- O input do tipo submit gera um botão, value = salvar é o que estará escrito no botão -->
+            <input type="submit" value = 'Salvar'>
+        </form>
+    </body>
+</html>
