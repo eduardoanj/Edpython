@@ -1,5 +1,5 @@
 body{
-    background: #bde5f5;
+    background: #1C285C
 }
 .cabecalho, .novo{
     width: 60%;
@@ -18,7 +18,7 @@ body{
 /*.novo a:hover serve para estilizar o botão novo aluno, ele brilha quando passa o mouse por cima*/
 /* o ponto inicial só usa caso crie uma classe */
 .novo a:hover{
-    background: #0f8399;
+    background: #1C285C;
     color: #ffffff;
 }
 table{
@@ -50,9 +50,12 @@ tbody tr{
 }
 /* hover é sempre quando o mouse passar em cima, td=table data, a tabela onde estão os dados do td */
 tbody tr:hover{
-    background: #2b60f0;
+    background: #1C285C;
     color: #ffffff;
 }
 body div h1{
-    color: #2b60f0
+    color: #1C285C
+}
+body{
+    background-image: url(../static/000733463_prevstill.png)
 }
